@@ -1,0 +1,8 @@
+
+@mixin tarjeta {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    padding: 3rem;
+    background-color: #f5f3f3;
+    transition: transform 0.3s ease;
+}

@@ -13,7 +13,7 @@ Mixins: Bloques de código reutilizables que aceptan argumentos.
 Funciones y Operaciones: Cálculos matemáticos y manipulación de valores directamente en las hojas de estilo.
 
 ## Estructura del Proyecto
-
+typetext
 sass/
 │
 ├── scss/

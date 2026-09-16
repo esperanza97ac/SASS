@@ -12,6 +12,14 @@ Mixins: Bloques de código reutilizables que aceptan argumentos.
 
 Funciones y Operaciones: Cálculos matemáticos y manipulación de valores directamente en las hojas de estilo.
 
+## Requisitos previos
+Para compilar y ejecutar este proyecto en tu máquina local, necesitas tener instalado sass compiler.
+
+Node.js (opcional, si prefieres usar npm)
+
+Un compilador de Sass. La forma más sencilla es mediante la extensión de Live Sass Compiler en Visual Studio Code.
+
+
 ## Estructura del Proyecto
 ```text
 mi-proyecto-sass/
@@ -24,10 +32,3 @@ mi-proyecto-sass/
 │   ├── main.css           # CSS compilado (salida)
 │   └── main.css.map       # Mapa de rutas para depuración
 └── index.html             # Página de ejemplo para visualizar estilos
-
-Requisitos Previos
-Para compilar y ejecutar este proyecto en tu máquina local, necesitas tener instalado sass compiler.
-
-Node.js (opcional, si prefieres usar npm)
-
-Un compilador de Sass. La forma más sencilla es mediante la extensión de Live Sass Compiler en Visual Studio Code.

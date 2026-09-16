@@ -13,20 +13,17 @@ Mixins: Bloques de código reutilizables que aceptan argumentos.
 Funciones y Operaciones: Cálculos matemáticos y manipulación de valores directamente en las hojas de estilo.
 
 ## Estructura del Proyecto
-typetext
-sass/
-│
+```text
+mi-proyecto-sass/
 ├── scss/
-│   ├── _base         # Estilos base y reseteos
-│   ├── _components   # Componentes reutilizables (botones, tarjetas)
-│   ├── _mixins       # Estructura principal (header, footer)
-│   └── main.scss     # Archivo principal que importa los parciales
-│
+│   ├── _base.scss         # Estilos base y reseteos
+│   ├── _components.scss   # Componentes reutilizables (botones, tarjetas)
+│   ├── _mixins.scss       # Mixins y funciones
+│   └── main.scss          # Archivo principal que importa los parciales
 ├── css/
-│   └── main.css       # CSS compilado (salida)
-│   └── main.map.css   # CSS ruta a SCSS 
-│
-└── index.html         # Página de ejemplo para visualizar los estilos
+│   ├── main.css           # CSS compilado (salida)
+│   └── main.css.map       # Mapa de rutas para depuración
+└── index.html             # Página de ejemplo para visualizar estilos
 
 Requisitos Previos
 Para compilar y ejecutar este proyecto en tu máquina local, necesitas tener instalado sass compiler.
